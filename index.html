@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula 1 - Información, Pilotos y Carreras</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🏎️ Fórmula 1</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/pilotos.html">Pilotos</a></li>
+                    <li><a href="pages/equipos.html">Equipos</a></li>
+                    <li><a href="pages/carreras.html">Carreras</a></li>
+                    <li><a href="pages/estadisticas.html">Estadísticas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>¡Bienvenido a la máxima categoría del automovilismo!</h2>
+            <p>Descubre todo sobre pilotos, equipos y emocionantes carreras</p>
+            <button class="btn" onclick="document.querySelector('.featured').scrollIntoView()">Explorar</button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DESTACADA -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <h2>Información Destacada</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>🏆 Campeones</h3>
+                    <p>Conoce a los pilotos más exitosos de la historia</p>
+                </div>
+                <div class="card">
+                    <h3>🚗 Equipos</h3>
+                    <p>Descubre las escuderías más poderosas</p>
+                </div>
+                <div class="card">
+                    <h3>🎯 Temporada 2024</h3>
+                    <p>Sigue las carreras y el campeonato</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sitio Fórmula 1. Todos los derechos reservados.</p>
+            <p>Desarrollado con ❤️ desde {tu nombre}</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
